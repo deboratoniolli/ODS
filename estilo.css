@@ -11,11 +11,33 @@ body{
      animation-name:initial;
      animation-duration: 3s;
      color: aliceblue;
-     
-    
-     
- }
- 
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #062949;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
  .projetos{
      
      text-decoration: double;
@@ -46,7 +68,7 @@ body{
     
  
   .principal{
-   align-items: center;
+    align-items: center;
      font-family: calibri; 
      text-align: center;
      font-size:20px;
@@ -56,6 +78,7 @@ body{
      color: white;
   }
   .icone1{
+    background-image: url(imagemtopo.jpg);
     animation-duration: 3s;
   animation-name: slidein;
   color:white;
@@ -120,20 +143,48 @@ body{
  }
  
  
- .h{padding-bottom: 50px;
+ .h{
+  padding-bottom: 50px;
  }
  
  .Creditos{
-   background-image:url(aquario.gif);
+ background-position: 100%;
+ background-image: url(aquario.gif);
     align-items: center;
-   border-radius: 50%;
+   border-radius: 300px;
      margin-left: 300px;
      padding-left: 100px;
-    width:300px;
+    width:500px;
    animation-direction: alternate-reverse;
    color: #290d1e;
-   text-align: right 25px;
+   text-align: left;
+   text-size-adjust: 20px;
+
+   ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #19558a;
+
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #7a2c2c;
+    }
  }
+
  
  .autoria{
   
@@ -163,4 +214,5 @@ body{
   padding-bottom: 20px;
  
  }
-   
+
+ 
