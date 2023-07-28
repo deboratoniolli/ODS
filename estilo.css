@@ -98,11 +98,7 @@ body{
   }
  }
  
- .video{
- 
-   
- 
- }
+
   
  .videogif
  {
@@ -147,6 +143,13 @@ body{
   padding-bottom: 50px;
  }
  
+ .formulario{
+        background-color:#111;
+        text-align: center;
+        border-width: 100px;
+        
+
+ }
  .Creditos{
  background-position: 100%;
  background-image: url(aquario.gif);
@@ -185,34 +188,9 @@ body{
     }
  }
 
- 
- .autoria{
-  
-   background-image: url(perfil.jpg);
-   background-position: 15,10,0,0;
-   padding-left: 100px;
-   background-size: 100px;
-   background-repeat: no-repeat;
-   padding-left: 100px;
-   
-  background-color: pink;
-  align-items: center;
-  width: 600px;
-  height: 100px;
-  font-family: cursive;
-  
- 
-  color: #200912;
- 
-  text-align: center;
-  font-size: 10px;
-  font-weight: 100px;
-  margin-top: 20px;
-  margin-right: 300px;
-  padding-top: 0;
-  padding-right: 50px; 
-  padding-bottom: 20px;
- 
- }
 
- 
+
+
+   
+
+}
