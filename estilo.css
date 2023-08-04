@@ -11,6 +11,7 @@ body{
      animation-name:initial;
      animation-duration: 3s;
      color: aliceblue;
+     text-align: justify;
 }
 
   ul {
@@ -51,8 +52,7 @@ body{
  
  
  .titulo{
-   background-image: url(imagemtopo.jpg);
-   background-size: 150px;
+  
    background-repeat: no-repeat;
    width: 100%;
    }
@@ -76,6 +76,7 @@ body{
      padding-right:50px;
      border-width:50px;
      color: white;
+     background-color: black;
   }
   .icone1{
     background-image: url(imagemtopo.jpg);
@@ -144,24 +145,31 @@ body{
  }
  
  .formulario{
-        background-color:#111;
+        background-color:#6bcde6;
         text-align: center;
-        border-width: 100px;
+        border-radius: 100px;
+        color: #290d1e;
+        
         
 
  }
  .Creditos{
  background-position: 100%;
  background-image: url(aquario.gif);
+ text-align: center;
     align-items: center;
    border-radius: 300px;
      margin-left: 300px;
      padding-left: 100px;
     width:500px;
    animation-direction: alternate-reverse;
-   color: #290d1e;
+  color: rgb(7, 6, 4);
    text-align: left;
    text-size-adjust: 20px;
+
+  
+
+   }
 
    ul{
    list-style-type: none;
@@ -189,8 +197,58 @@ body{
  }
 
 
-
-
-   
+.apresentacao{
+  background-size: contain;
+  background-image: url(perfil.jpg);
+  background-repeat: no-repeat;
+ padding: 100px 30px 100px 10px;
+  background-color: rgb(102, 24, 117);
+  background-position-x: center;
+text-align: right;
+font-family: cursive;
+font-size: small;
 
 }
+   
+
+.texto2{
+  padding: 5px;
+  float: right;
+  background-color: rgb(46, 14, 5);
+}
+
+
+
+.subtitulo{
+  background-color: #111;
+}
+
+
+.quemsou{
+  color: #7a2c2c;
+  font-family:cursive;
+  text-align: right;
+  background-color: #19558a;
+}
+
+.video{ position: left;
+  text-align: justify;
+
+}
+
+.textovideo{
+  float:right;
+    max-width:500px;
+    margin-left:10px;
+    background-color: #062949;
+    text-align: center;
+}
+.areaTexto{
+    background-color: #062949;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
