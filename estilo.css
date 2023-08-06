@@ -1,6 +1,6 @@
 body{
    
-    background-image:url(recifes.jpg); width:70%;
+    background-image:url(recifes.jpg); width:100%;
     image-rendering: auto;
     margin: 100px;
      height:70px;
@@ -20,6 +20,7 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #062949;
+    width: 70%;
   }
   
   li {
@@ -43,25 +44,25 @@ body{
      
      text-decoration: double;
      font-stretch: condensed;
-     text-align:center;
      font-size:20px;
-     text-align:center;
+   align-items: center;
      font-family:Jazz LET, fantasy; 
+     margin-left: 20%;
  }
  
  
  
- .titulo{
   
-   background-repeat: no-repeat;
-   width: 100%;
-   }
-   
+
  
      .inicial{
+      align-items: center;
          text-align: center; 
          font-family: calibri; 
+         font-size: small;
          background:rgb(51, 88, 184);
+         width: 73%;
+         height: 50%;
  
      }
      
@@ -69,6 +70,7 @@ body{
  
   .principal{
     align-items: center;
+    width: 70%;
      font-family: calibri; 
      text-align: center;
      font-size:20px;
@@ -82,6 +84,7 @@ body{
     background-image: url(imagemtopo.jpg);
     animation-duration: 3s;
   animation-name: slidein;
+  align-items: center;
   color:white;
   
  }
@@ -104,12 +107,12 @@ body{
  .videogif
  {
        background-image: url(gif.gif);
-       align-items: center;
+       align-items: right;
        box-sizing: border-box;
        border-radius: 10px 15px 25px;
-       width: 70%;
+       width: 90%;
        background-color: aqua;
-       padding-right: 200px;
+       padding-right: 100px;
         
  }
  
@@ -117,14 +120,19 @@ body{
  
  
  .icone2{
-    text-align: center;
+
     animation-duration: 3s;
   animation-name: slidein;
+  margin-left:33.5%;
  }
  .icone3{
-    text-align: center;
+  
+   
     animation-duration: 3s;
   animation-name: slidein;
+  width: 10%;
+  height: 20%;
+  margin-left:0%;
  }
  
  @keyframes slidein {
@@ -149,6 +157,9 @@ body{
         text-align: center;
         border-radius: 100px;
         color: #290d1e;
+        width: 50%;
+        height: 50%;
+     margin-right: 70%;
         
         
 
@@ -156,16 +167,17 @@ body{
  .Creditos{
  background-position: 100%;
  background-image: url(aquario.gif);
- text-align: center;
-    align-items: center;
+ width: 100%;
+     align-items: left;
    border-radius: 300px;
-     margin-left: 300px;
+     margin-left: 100px;
      padding-left: 100px;
-    width:500px;
+    width:30%;
    animation-direction: alternate-reverse;
-  color: rgb(7, 6, 4);
-   text-align: left;
+  color: rgb(215, 175, 93);
+   text-align: center;
    text-size-adjust: 20px;
+   font-size: 90%;
 
   
 
@@ -201,9 +213,11 @@ body{
   background-size: contain;
   background-image: url(perfil.jpg);
   background-repeat: no-repeat;
- padding: 100px 30px 100px 10px;
+ padding: 80px 30px 80px 10px;
   background-color: rgb(102, 24, 117);
-  background-position-x: center;
+  background-position-x: left;
+  width: 45%;
+  height: 20%;
 text-align: right;
 font-family: cursive;
 font-size: small;
@@ -212,16 +226,20 @@ font-size: small;
    
 
 .texto2{
-  padding: 5px;
-  float: right;
-  background-color: rgb(46, 14, 5);
+  align-items: center;
+    width: 70%;
+     font-family: calibri; 
+     text-align: center;
+     font-size:20px;
+     padding-top: 15px;
+     padding-right:50px;
+     border-width:50px;
+     color: white;
+     background-color: black;
 }
 
 
 
-.subtitulo{
-  background-color: #111;
-}
 
 
 .quemsou{
@@ -231,23 +249,24 @@ font-size: small;
   background-color: #19558a;
 }
 
-.video{ position: left;
+.video{ 
+  float: left;
   text-align: justify;
 
 }
 
 .textovideo{
   float:right;
-    max-width:500px;
-    margin-left:10px;
+    max-width:555px;
+    height: 315px;
     background-color: #062949;
-    text-align: center;
+    text-align:start;
+    font-size: 100.5%;
+    font-family: Cambria, serif;
 }
-.areaTexto{
-    background-color: #062949;
-    align-items: center;
-    text-align: center;
 
+.hr{
+  color: #7a2c2c;
 }
 
 
