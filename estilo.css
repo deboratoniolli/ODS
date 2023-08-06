@@ -1,28 +1,199 @@
 body{
    
-    background-image:url(recifes.jpg); width:100%;
-    image-rendering: auto;
-    margin: 100px;
-     height:70px;
-       padding-right: 15px;
-     border-width:10px;
-     border-right: 50px #290d1e;
-     padding-left:10px;
-     animation-name:initial;
-     animation-duration: 3s;
-     color: aliceblue;
-     text-align: justify;
+  background-image:url(recifes.jpg); width:100%;
+  image-rendering: auto;
+  margin: 100px;
+   height:70px;
+     padding-right: 15px;
+   border-width:10px;
+   border-right: 50px #290d1e;
+   padding-left:10px;
+   animation-name:initial;
+   animation-duration: 3s;
+   color: aliceblue;
+   text-align: justify;
 }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #062949;
-    width: 70%;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #062949;
+  width: 70%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ed5656;
+}
+
+.projetos{
+   
+   text-decoration: double;
+   font-stretch: condensed;
+   font-size:20px;
+ align-items: center;
+   font-family:Jazz LET, fantasy; 
+   margin-left: 20%;
+}
+
+
+
+
+
+
+   .inicial{
+    align-items: center;
+       text-align: center; 
+       font-family: calibri; 
+       font-size: small;
+       background:rgb(51, 88, 184);
+       width: 73%;
+       height: 50%;
+
+   }
+   
   
+
+.principal{
+  align-items: center;
+  width: 70%;
+   font-family: calibri; 
+   text-align: center;
+   font-size:20px;
+   padding-top: 15px;
+   padding-right:50px;
+   border-width:50px;
+   color: white;
+   background-color: black;
+}
+.icone1{
+  background-image: url(imagemtopo.jpg);
+  animation-duration: 3s;
+animation-name: slidein;
+align-items: center;
+color:white;
+
+}
+  
+
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 300%;
+}
+
+to {
+  margin-left: 0%;
+  width: 100%;
+}
+}
+
+
+
+.videogif
+{
+     background-image: url(gif.gif);
+     align-items: right;
+     box-sizing: border-box;
+     border-radius: 10px 15px 25px;
+     width: 90%;
+     background-color: aqua;
+     padding-right: 100px;
+      
+}
+
+
+
+
+.icone2{
+
+  animation-duration: 3s;
+animation-name: slidein;
+margin-left:33.5%;
+}
+.icone3{
+
+ 
+  animation-duration: 3s;
+animation-name: slidein;
+width: 10%;
+height: 20%;
+margin-left:0%;
+}
+
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 300%;
+}
+
+to {
+  margin-left: 0%;
+  width: 100%;
+}
+}
+
+
+.h{
+padding-bottom: 50px;
+}
+
+.formulario{
+  background-image: url(bolinhas.gif);
+  margin-left: -30%;
+  text-align: center;
+ background-size:100%:
+ background-repeat: no-repeat;
+    border-bottom:20px;
+    border-radius: 300px;
+      color: #754d87;
+      width: 50%;
+      height: 50%;
+      text-align: center;
+      padding-bottom: 20px;
+    
+      }
+
+
+.Creditos{
+background-position: 100%;
+background-image: url(aquario.gif);
+width: 100%;
+ border-radius: 300px;
+   margin-left: -30%;
+   padding-left: 100px;
+  width:30%;
+ animation-direction: alternate-reverse;
+color: rgb(215, 175, 93);
+ text-align: center;
+ text-size-adjust: 20px;
+ font-size: 90%;
+
+
+
+ }
+
+ ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #19558a;
+
   li {
     float: left;
   }
@@ -37,237 +208,83 @@ body{
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #7a2c2c;
   }
-
- .projetos{
-     
-     text-decoration: double;
-     font-stretch: condensed;
-     font-size:20px;
-   align-items: center;
-     font-family:Jazz LET, fantasy; 
-     margin-left: 20%;
- }
- 
- 
- 
-  
-
- 
-     .inicial{
-      align-items: center;
-         text-align: center; 
-         font-family: calibri; 
-         font-size: small;
-         background:rgb(51, 88, 184);
-         width: 73%;
-         height: 50%;
- 
-     }
-     
-    
- 
-  .principal{
-    align-items: center;
-    width: 70%;
-     font-family: calibri; 
-     text-align: center;
-     font-size:20px;
-     padding-top: 15px;
-     padding-right:50px;
-     border-width:50px;
-     color: white;
-     background-color: black;
-  }
-  .icone1{
-    background-image: url(imagemtopo.jpg);
-    animation-duration: 3s;
-  animation-name: slidein;
-  align-items: center;
-  color:white;
-  
- }
-    
- 
- @keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
- 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
- }
- 
-
-  
- .videogif
- {
-       background-image: url(gif.gif);
-       align-items: right;
-       box-sizing: border-box;
-       border-radius: 10px 15px 25px;
-       width: 90%;
-       background-color: aqua;
-       padding-right: 100px;
-        
- }
- 
- 
- 
- 
- .icone2{
-
-    animation-duration: 3s;
-  animation-name: slidein;
-  margin-left:33.5%;
- }
- .icone3{
-  
-   
-    animation-duration: 3s;
-  animation-name: slidein;
-  width: 10%;
-  height: 20%;
-  margin-left:0%;
- }
- 
- @keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
- 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
- }
- 
- 
- .h{
-  padding-bottom: 50px;
- }
- 
- .formulario{
-        background-color:#6bcde6;
-        text-align: center;
-        border-radius: 100px;
-        color: #290d1e;
-        width: 50%;
-        height: 50%;
-     margin-right: 70%;
-        
-        
-
- }
- .Creditos{
- background-position: 100%;
- background-image: url(aquario.gif);
- width: 100%;
-     align-items: left;
-   border-radius: 300px;
-     margin-left: 100px;
-     padding-left: 100px;
-    width:30%;
-   animation-direction: alternate-reverse;
-  color: rgb(215, 175, 93);
-   text-align: center;
-   text-size-adjust: 20px;
-   font-size: 90%;
-
-  
-
-   }
-
-   ul{
-   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #19558a;
-
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
-      background-color: #7a2c2c;
-    }
- }
+}
 
 
 .apresentacao{
-  background-size: contain;
-  background-image: url(perfil.jpg);
-  background-repeat: no-repeat;
- padding: 80px 30px 80px 10px;
-  background-color: rgb(102, 24, 117);
-  background-position-x: left;
-  width: 45%;
-  height: 20%;
-text-align: right;
+background-size: contain;
+background-image: url(perfil.jpg);
+margin-left: -20%;
+background-repeat: no-repeat;
+padding: 80px 40px 80px 50px;
+background-color: rgb(85, 59, 91);
+background-position-x: left;
+width: 40%;
+height: 200px;
+text-align:right;
 font-family: cursive;
 font-size: small;
 
 }
-   
-
-.texto2{
-  align-items: center;
-    width: 70%;
-     font-family: calibri; 
-     text-align: center;
-     font-size:20px;
-     padding-top: 15px;
-     padding-right:50px;
-     border-width:50px;
-     color: white;
-     background-color: black;
-}
-
 
 
 
 
 .quemsou{
-  color: #7a2c2c;
-  font-family:cursive;
-  text-align: right;
-  background-color: #19558a;
-}
-
-.video{ 
-  float: left;
-  text-align: justify;
-
-}
-
-.textovideo{
-  float:right;
-    max-width:555px;
-    height: 315px;
-    background-color: #062949;
-    text-align:start;
-    font-size: 100.5%;
-    font-family: Cambria, serif;
-}
-
-.hr{
-  color: #7a2c2c;
+color: #7a2c2c;
+font-family:cursive;
+text-align: right;
+background-color: #19558a;
 }
 
 
+.video{
+float:left;
+align-items: left;
+  background-color:red;
+  width: 73%;
+  height:500px;
+  margin-right: 200px;
+  border-top: 50px;
+  border-bottom: 50px;
+  padding bottom:100px;
+  margin-bottom:50px;
+}
+
+  .texto2{
+    font-size:14px;
+    float:right;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: -40px;
+    margin-left: -130px;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+
+   h3{
+    background-color: #1955;
+    text-align: center;
+   }
+.lixopraia{
+  background-color:rgb(24, 101, 168);
+}
+
+.texto3{
+  width: 66%;
+  height: 1050px;
+  background-color: #111;
+  text-align: center;
+    margin-top: 550px;
+    margin-right: 420px;
+    margin-left: 0px;
+    padding: 50px;
+    padding-bottom: 100px;
+  
+  }
+.h2{
+  background-color: green;
+}
 
