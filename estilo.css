@@ -220,18 +220,15 @@ color: rgb(215, 175, 93);
 
 .apresentacao{
 background-size: contain;
-background-image: url(perfil.jpg);
+border-style: dotted;
 margin-left: 25%;
 margin-right: 30%;
 background-repeat: no-repeat;
-padding: 1.0em 5em 0.8em 0.5em;
+padding: 1em 6.1em 0.9em 1em;
 background-color: rgb(85, 59, 91);
-background-position-x: left;
-width: 35%;
-height: -200%;
-text-align:right;
+width: 30%;
 font-family: cursive;
-font-size: small;
+font-size: 100%;
 
 }
 
@@ -242,18 +239,8 @@ font-size: small;
 
   .texto2{
     background-color: #290d1e;
-    width: 30%;
-    height: 50%;
-    font-size:86.1%;
-    text-align: center;
-    margin-top:-29.8%;
+    width: 100%;
   
-    margin-right: 00%;
-    margin-left: 30%;
-    padding: 0.9em;
-    padding-top: 0.2em;
-    padding-left:10em;
-    padding-bottom: 0.32em;
   }
 
    h3{
@@ -280,3 +267,4 @@ div.video{
   width: 50%;
   height: 40%;
 }
+
