@@ -70,11 +70,7 @@ li a:hover {
 
 .principal{
   align-items: center;
-<<<<<<< HEAD
   width: 100%;
-=======
-  width: 100%
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
   height: 80%;
    font-family: calibri; 
    text-align: center;
@@ -135,13 +131,7 @@ margin-left:33.5%;
  
   animation-duration: 3s;
 animation-name: slidein;
-<<<<<<< HEAD
 margin-left:33.5%;
-=======
-width: 10%;
-height: 20%;
-margin-left:0%;
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
 }
 
 @keyframes slidein {
@@ -163,17 +153,11 @@ padding-bottom: 0.5em;
 
 .formulario{
   background-image: url(bolinhas.gif);
-<<<<<<< HEAD
   background-color:white;
   margin-left: 20%;
   text-align: center;
  background-size:20%;
  margin
-=======
-  margin-left: 0;
-  text-align: center;
- background-size:100%:
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
  background-repeat: no-repeat;
     border-bottom:0.2em;
     border-radius: 3.0em;
@@ -187,7 +171,6 @@ padding-bottom: 0.5em;
 
 
 .Creditos{
-<<<<<<< HEAD
 background-position:30%;
 background-image: url(aquario.gif);
 background-color: #7a2c2c;
@@ -208,25 +191,6 @@ color: rgb(215, 175, 93);
  }
 
 }
-=======
-background-position:50%;
-background-image: url(aquario.gif);
-background-repeat: no-repeat;
-width: 100%;
- border-radius: 2em;
-   margin-left: -44%;
-   padding-left: 50%;
- animation-direction: alternate-reverse;
-color: rgb(215, 175, 93);
-width: 50%;
- text-align: left;
- text-size-adjust:2.0em;
- font-size: 100%;
-
-
-
- }
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
 
  ul{
  list-style-type: none;
@@ -257,23 +221,14 @@ width: 50%;
 .apresentacao{
 background-size: contain;
 background-image: url(perfil.jpg);
-<<<<<<< HEAD
 margin-left: 25%;
-=======
-margin-left: 30%;
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
 margin-right: 30%;
 background-repeat: no-repeat;
 padding: 1.0em 5em 0.8em 0.5em;
 background-color: rgb(85, 59, 91);
 background-position-x: left;
-<<<<<<< HEAD
 width: 35%;
 height: -200%;
-=======
-width: 100%
-height: 70%;
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
 text-align:right;
 font-family: cursive;
 font-size: small;
@@ -283,7 +238,6 @@ font-size: small;
 
 
 
-<<<<<<< HEAD
 
 
   .texto2{
@@ -300,66 +254,22 @@ font-size: small;
     padding-top: 0.2em;
     padding-left:10em;
     padding-bottom: 0.32em;
-=======
-.video{
-float:left;
-align-items: left;
-  background-color:red;
-  width: 100%;
-  height:31.3em;
-  margin-right: 50%;
-  border-top: 0.5em;
-  border-bottom: 0.em;
-  padding bottom:2em;
-  margin-bottom:1.5em;
-}
-
-  .texto2{
-    font-size:90%;
-    float: right;
-    text-align: center;
-    margin-top: -1%;
-    margin-right: 7em;
-    margin-left: -1.3em;
-    padding: 0.5em;
-    padding-bottom: 0.30em;
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
   }
 
    h3{
     background-color: #1955;
     text-align: center;
    }
-<<<<<<< HEAD
 
 
 .texto3{
   background-color: #290d1e;
   width: 100%;
 
-=======
-.lixopraia{
-  background-color:rgb(24, 101, 168);
-}
-
-.texto3{
-  align-items: center;
-  width: 100%
-  height: 80%;
-   font-family: calibri; 
-   text-align: center;
-   font-size:1em;
-   padding-top:2%;
-   padding-right:0.5em;
-   border-width:20%;
-   color: white;
-   background-color: black;
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
   }
 .h2{
   background-color: green;
 }
-<<<<<<< HEAD
 .lixopraia{
   background-color: #ed5656;
 
@@ -370,6 +280,3 @@ div.video{
   width: 50%;
   height: 40%;
 }
-=======
-
->>>>>>> e114bece93ba78da7b74c987006577793762a85e
